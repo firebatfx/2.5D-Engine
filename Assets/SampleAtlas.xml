@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:43407293e60c58b59128721db469e8cc:71620c0701b310ad35f314761a417d65:ff0eea21431ccd20940ddc4d4ef999c6$ -->
+<TextureAtlas imagePath="SampleAtlas.png" width="1203" height="812">
+    <SubTexture name="SmallLanternEnergy_00000" x="370" y="369" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00001" x="370" y="411" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00002" x="370" y="453" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00003" x="370" y="495" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00004" x="370" y="537" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00005" x="370" y="579" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00006" x="370" y="621" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00007" x="370" y="663" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00008" x="370" y="705" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00009" x="370" y="747" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00010" x="1" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00011" x="43" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00012" x="85" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00013" x="127" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00014" x="169" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00015" x="211" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00016" x="253" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00017" x="295" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00018" x="412" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00019" x="454" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00020" x="496" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00021" x="538" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00022" x="580" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00023" x="622" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00024" x="664" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00025" x="706" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00026" x="748" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00027" x="790" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00028" x="832" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00029" x="874" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00030" x="916" y="771" width="40" height="40"/>
+    <SubTexture name="SmallLanternEnergy_00031" x="958" y="771" width="40" height="40"/>
+    <SubTexture name="Sphere01" x="418" y="1" width="367" height="400"/>
+    <SubTexture name="Sphere01_h" x="1" y="369" width="367" height="400"/>
+    <SubTexture name="Sphere01_n" x="829" y="369" width="367" height="400"/>
+    <SubTexture name="Teapot01" x="1" y="1" width="415" height="366"/>
+    <SubTexture name="Teapot01_h" x="412" y="403" width="415" height="366"/>
+    <SubTexture name="Teapot01_n" x="787" y="1" width="415" height="366"/>
+</TextureAtlas>
