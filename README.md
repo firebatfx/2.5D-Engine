@@ -1,7 +1,7 @@
 Deferred shading 2.5d isometric renderer.
 ====================
 
-<a href="http://postimg.org/image/uxmeno22b/" target="_blank"><img src="http://postimg.org/image/uxmeno22b/" alt="" /></a>
+<a href="http://s29.postimg.org/9nysctlrr/Deferred_Screen.jpg" target="_blank"><img src="http://s29.postimg.org/9nysctlrr/Deferred_Screen.jpg" alt="" /></a>
 
 
 This is the stand alone renderer part of game engine. All objects are 2d quads with preRendered normal and depth maps. No batching right now.
@@ -25,15 +25,30 @@ Depth property explanation:
 
 1D Lut color balance workflow:
 
-<a href="http://postimg.org/image/z9dy70izf/" target="_blank"><img src="http://postimg.org/image/z9dy70izf/" alt="" /></a>
+<a href="http://s9.postimg.org/mhzs0i97j/Luts_Workflow.jpg" target="_blank"><img src="http://s9.postimg.org/mhzs0i97j/Luts_Workflow.jpg" alt="" /></a>
 
 
 <b>Note3</b>:
 There are 2 changes in starling RenderSupport class:
 
 1.in assembleAgal function, version of agal is changed from defoult 1 to 2
- 	sAssembler.assemble(Context3DProgramType.VERTEX, vertexShader,<b>2</b>),
-	sAssembler.assemble(Context3DProgramType.FRAGMENT, fragmentShader,<b>2</b>));
+
+ 	        public static function assembleAgal(vertexShader:String, fragmentShader:String,
+                                            resultProgram:Program3D=null):Program3D
+        {
+            if (resultProgram == null) 
+            {
+                var context:Context3D = Starling.context;
+                if (context == null) throw new MissingContextError();
+                resultProgram = context.createProgram();
+            }
+            
+            resultProgram.upload(
+                sAssembler.assemble(Context3DProgramType.VERTEX, vertexShader,2), //changed by Firebat version of agal from 1 to 2
+                sAssembler.assemble(Context3DProgramType.FRAGMENT, fragmentShader,2));
+            
+            return resultProgram;
+        }
 
 
 
